@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie recommender system</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: url("https://img.freepik.com/free-vector/cinematograph-concept-background-design-with-popcorn-3d-glasses_260559-142.jpg?w=2000") no-repeat top center/cover;
+        }
+        .navbar{
+            height: 14vh;
+            width: 100vw;
+            /* background-color: #2e356e; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .navbar li{
+            list-style: none;
+            margin: auto;
+        }
+        .navbar li a{
+            color: white;
+            font-size: 2.4rem;
+            text-decoration:underline;
+        }
+        section{
+            height: 86vh;
+            width: 100vw;
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            /* align-items:center; */
+        }
+        .main h1{
+            position: absolute;
+            font-size: 3.4rem;
+            top: 26vh;
+            color: #0b0574;
+        }
+        .main button{
+            position: absolute;
+            color: white;
+            font-size: 1.4rem;
+            top: 49vh;
+            height: 10vh;
+            width: 20vw;
+            border: 2px solid white;
+            border-radius: 16px;
+            background-color: rgb(31, 150, 31);
+        }
+        .main button:hover{
+            border: 2px solid white;
+            cursor: pointer;
+            background-color: green;
+        }
+        .main button a{
+            color: white;
+            font-size: 1.8rem;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="http://localhost:8501/" target="_blank">Main Project</a></li>
+    </nav>
+    <section class="main">
+        <h1>Welcome to my Movie Recommendation Engine</h1>
+        <!-- To go to main app.py (main app of my project) -->
+        <button type="submit"><a href="http://localhost:8501/", target="_blank">Go to main site</a></button>
+    </section>
+</body>
+</html>
