@@ -1,2 +1,2 @@
 # Movie_recommendation_engine_for_Microsoft
-So basically, it is a movie recommendation engine that takes input as a movie name from the user and suggests the name of five movies. I used Python, HTML, CSS, Streamlit and jupyter notebook in this project. You will find a file named a similarity. pkl in the app.py file I wasn't able to upload it to Github repository because of its huge size. The two datasets named tmdb_5000_credits.csv and tmdb_5000_movies.csv wasn't uploaded because of their size.
+Basically, it is a movie recommendation engine that takes input as a movie name from the user and suggests the name of five movies. I used Python, HTML, CSS, Streamlit, and jupyter notebook in this project.
